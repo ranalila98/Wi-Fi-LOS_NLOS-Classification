@@ -26,7 +26,7 @@ Wall Count : 3064
 
  ## Importing Data Set in Python
 
-To import data set data into Python environment, **dataset.py** script can be used. The CIR data still needs to be divided by number of acquired RX preamble samples (RX_PACC).
+To import data set data into Python environment, **dataset.py** script can be used. Unneccessary columns are removed. 
 
 	import dataset
 	
@@ -34,3 +34,7 @@ To import data set data into Python environment, **dataset.py** script can be us
 	data = dataset.import_from_files()
 	print(data)
 
+
+
+Pytorch Version : 2.0.1+cpu
+Python Version : 3.10.10
